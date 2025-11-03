@@ -1,5 +1,7 @@
 import {home} from "./Home.js"
+import {menu} from "./Menu.js"
 
 
-home();
+// home();
+menu();
 console.log("test");
