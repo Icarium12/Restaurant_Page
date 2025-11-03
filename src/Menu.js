@@ -9,10 +9,10 @@ function menu() {
 
     const beverage1 = document.createElement("div");
     beverage1.className = "menu-item";
-    const blackCoffee = document.createElement("div");
+    const blackCoffee = document.createElement("h2");
     blackCoffee.textContent = "Black Coffee: $5";
     beverage1.appendChild(blackCoffee);
-    const bcInfo = document.createElement("div");
+    const bcInfo = document.createElement("p");
     bcInfo.textContent = `An aromatic, stimulating hot beverage prepared from 
                         the roasted and brewed seeds of the Coffea plant`;
     beverage1.appendChild(bcInfo);
@@ -26,10 +26,10 @@ function menu() {
 
     const beverage2 = document.createElement("div");
     beverage2.className = "menu-item";
-    const orangeJuice = document.createElement("div");
+    const orangeJuice = document.createElement("h2");
     orangeJuice.textContent = "Orange Juice: $3";
     beverage2.appendChild(orangeJuice);
-    const ojInfo = document.createElement("div");
+    const ojInfo = document.createElement("p");
     ojInfo.textContent = `A refreshing, non-alchohlic, non-carbonated beverage made from
                             the extraction or squeezing of fresh oranges`;
     beverage2.appendChild(ojInfo)
