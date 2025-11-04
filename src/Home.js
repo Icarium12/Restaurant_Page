@@ -3,6 +3,7 @@ import dinerImage from "./diner.jpg";
 
 function home() {
     const content = document.querySelector("#content");
+    content.replaceChildren();
 
     const heading = document.createElement("div");
     heading.textContent = "Praise's Diner";

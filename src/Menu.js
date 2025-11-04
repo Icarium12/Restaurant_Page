@@ -1,5 +1,6 @@
 function menu() {
     const content = document.querySelector("#content");
+    content.replaceChildren();
 
     const beverageCont = document.createElement("div");
     beverageCont.className = "beverage-cont";

@@ -1,5 +1,6 @@
 function about() {
     const content  = document.querySelector("#content");
+    content.replaceChildren();
 
     const contact  = document.createElement("div");
     contact.className = "heading";
