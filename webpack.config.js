@@ -1,4 +1,3 @@
-const { watch, watchFile } = require("fs");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path  = require("path");
 
